@@ -1,0 +1,128 @@
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.calculator {
+  background-color: black;
+  border-radius: 30px;
+  padding: 20px;
+  width: 320px;
+  position: relative;
+}
+
+.display {
+  text-align: right;
+  color: white;
+  font-size: 50px;
+  padding: 15px 10px 5px;
+  background: #000;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.history-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #333;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  width: 35px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.operator {
+  background-color: #ff9f0a;
+  color: white;
+}
+
+.top-btn {
+  background-color: #a5a5a5;
+  color: black;
+}
+
+.zero {
+  grid-column: span 2;
+  border-radius: 35px;
+  width: 100%;
+}
+
+/* History panel */
+.history-panel {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 280px;
+  height: 100%;
+  background-color: #1b1b1b;
+  color: white;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  transition: 0.3s ease;
+  overflow-y: auto;
+  border-radius: 15px 0 0 15px;
+}
+
+.history-panel.active {
+  right: 0;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-btn {
+  background: #444;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#historyList {
+  margin-top: 15px;
+}
+
+.history-item {
+  background-color: #333;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
