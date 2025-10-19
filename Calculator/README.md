@@ -2,6 +2,8 @@
 
 A simple, elegant, and responsive **Basic Calculator** built using **HTML, CSS, and JavaScript**.  
 It replicates the look and behavior of a modern mobile calculator and includes a **calculation history** feature with results rounded to **3 decimal places**.
+<img width="1902" height="905" alt="image" src="https://github.com/user-attachments/assets/ef1c4c60-7af7-408e-9472-b540be11291f" />
+<img width="808" height="827" alt="image" src="https://github.com/user-attachments/assets/b91334e7-d7f4-4694-91bc-6d0885261777" />
 
 ---
 
