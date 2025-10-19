@@ -1,16 +1,48 @@
-# React + Vite
+# ✅ To-Do List App – React Frontend Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and interactive **To-Do List App Clone** built entirely using **React.js**.  
+This project allows users to **add, complete, and delete tasks** — all handled on the frontend, without any backend or database integration (yet).
+<img width="727" height="588" alt="image" src="https://github.com/user-attachments/assets/1297f176-7be2-48e7-8a04-5980ee20b767" /><br><br><Br><br>
+<img width="635" height="644" alt="image" src="https://github.com/user-attachments/assets/77decd75-1357-4987-8e13-e3ffc93ae2a8" />
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Project Overview
 
-## React Compiler
+This project replicates the design and functionality of a modern To-Do list manager using React.  
+It focuses on implementing **state management**, **component-based UI**, and **dynamic rendering** using **React hooks**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Currently, the app works **only on the frontend** — task data is stored temporarily (in the browser’s memory) and resets when the page is reloaded.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+✅ Add new tasks dynamically  
+✅ Mark tasks as completed  
+✅ Delete individual tasks    
+✅ Responsive and clean UI  
+✅ Simple and organized React component structure  
+
+---
+
+## 🧩 Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **React.js (Vite )** | Core framework |
+| **JavaScript** | Logic and interactivity |
+| **CSS3** | Styling and responsiveness |
+| **React Hooks (useState, useEffect)** | State and lifecycle management |
+
+---
+## 🚧 Backend Status
+
+🟠 **No backend added yet.**  
+The app currently runs only on the **frontend** and does not store data permanently.  
+
+## 💡 Challenges Faced
+
+- Managing **React state** efficiently between components  
+- Handling **conditional rendering** and **list updates** without page reloads  
+- Designing a **responsive layout** that looks clean across devices  
